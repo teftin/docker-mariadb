@@ -22,4 +22,4 @@ fi
 
 
 echo "==> starting mysqld"
-exec /usr/sbin/mysqld --defaults-file=/mysql/my.cnf >>/mysql/log/mysqld.stdout 2>>/mysql/log/mysqld.stderr
+exec /usr/sbin/mysqld --defaults-file=/mysql/my.cnf
